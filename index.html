@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع التوعية بالتنمر - الصفحة الرئيسية</title>
+    <title>موقع فريق فالكون - الصفحة الرئيسية</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -13,11 +13,13 @@
             <h1>التوعية بالتنمر</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">الصفحة الرئيسية</a></li>
+                    
                     <li><a href="about.html">عن التنمر</a></li>
                     <li><a href="resources.html">الموارد</a></li>
                     <li><a href="solutions.html">حلول التنمر</a></li> <!-- تم تحديث الرابط هنا -->
                     <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="details.html">معلومات عن التنمر</a></li>
+
                 </ul>
             </nav>
         </div>
@@ -25,7 +27,7 @@
 
     <section id="hero">
         <div class="container">
-            <h2>مرحبًا بك في موقع التوعية بالتنمر</h2>
+            <h2>مرحبا بك في موقع فريق فالكون</h2>
             <p>نهدف إلى تقديم معلومات ودعم لمكافحة التنمر وتعزيز بيئة آمنة ومشجعة للجميع.</p>
             <a href="contact.html" class="btn-primary">اتصل بنا الآن</a>
         </div>
@@ -34,11 +36,11 @@
     <section id="features">
         <div class="container">
             <h2>ميزاتنا</h2>
-            <div id="education" class="feature-item clickable-div">
+            <div  id="education" class="feature-item clickable-div" >
                 <h3>التثقيف</h3>
                 <p>نقدم معلومات شاملة حول التنمر وتأثيراته.</p>
             </div>
-            <div id="support" class="feature-item clickable-div">
+            <div  id="support" class="feature-item clickable-div">
                 <h3>الدعم</h3>
                 <p>ندعم الأفراد المتضررين من التنمر بمصادر ونصائح عملية.</p>
             </div>
@@ -60,17 +62,17 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 موقع التوعية بالتنمر. جميع الحقوق محفوظة.</p>
+            <p>&copy; 2024 موقع فريق فالكون. جميع الحقوق محفوظة.</p>
         </div>
     </footer>
 
     <script>
         document.getElementById('education').addEventListener('click', function() {
-            window.location.href = 'education.html';
+            window.location.href = 'details.html';
         });
 
         document.getElementById('support').addEventListener('click', function() {
-            window.location.href = 'support.html';
+            window.location.href = 'contact.html';
         });
 
         document.getElementById('participation').addEventListener('click', function() {
@@ -78,7 +80,7 @@
         });
 
         document.getElementById('info-section').addEventListener('click', function() {
-            window.location.href = 'details.html';
+            window.location.href = href ='details.html';
         });
     </script>
 </body>
